@@ -1,0 +1,21 @@
+{
+    "name": "cypress-mobile-testing",
+    "version": "1.0.0",
+    "description": "Automation testing for eCommerce",
+    "scripts": {
+        "test": "npm run cy:run || npm run posttest",
+        "cy:run": "cypress run --env allure=true --headed --browser chrome",
+        "allure:report": "allure generate allure-results --clean -o allure-report",
+        "posttest": "npm run allure:report && allure serve",
+        "cy:open": "cypress open",
+        "cy:headless": "cypress run"
+    },
+    "author": "Víctor Caminero",
+    "devDependencies": {
+        "@shelex/cypress-allure-plugin": "^2.26.5",
+        "@testing-library/cypress": "^8.0.2",
+        "cypress": "^9.6.1",
+        "eslint-plugin-cypress": "^2.12.1",
+        "test-data-bot": "^0.8.0"
+    }
+}

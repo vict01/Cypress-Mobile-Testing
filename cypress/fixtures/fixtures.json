@@ -1,0 +1,4 @@
+{
+    "wishlistElements": "[data-testid='wishlistBrandName']",
+    "continueShoppingButton": "[data-testid='continueShoppingButton']"
+}

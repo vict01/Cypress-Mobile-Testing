@@ -1,0 +1,15 @@
+{
+    "baseUrl": "https://m-en.aboutyou.de",
+    "integrationFolder": "cypress/integration",
+    "viewportWidth": 400,
+    "viewportHeight": 840,
+    "defaultCommandTimeout": 10000,
+    "reporterOptions": {
+        "reportDir": "cypress/reports/html",
+        "charts": true,
+        "reportPageTitle": "My Test Suite",
+        "embeddedScreenShots": true,
+        "inLineAssets": true,
+        "video": true
+    }
+}
